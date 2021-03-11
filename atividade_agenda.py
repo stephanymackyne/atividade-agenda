@@ -3,7 +3,7 @@ class Agenda(object):
     
     def armazenaPessoa(self, nome, idade, altura):
         
-        if len(self.listaPessoas) < 10: #armazenamento limitado a 10 cadastros de pessoa
+        if len(self.listaPessoas) < 10: #armazenamento limitado a 10 cadastros de pessoas
             dic = {
                 "nome": nome, 
                 "idade": idade, 
